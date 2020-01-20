@@ -1,0 +1,19 @@
+
+
+.questions {
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+table, th, td {
+  text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+  section{
+  margin-top: 30px;
+  }
+}

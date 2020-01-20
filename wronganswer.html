@@ -6,13 +6,15 @@
     <meta name="description" content="Art Du Déplacement - ADD (Parkour Quiz)">
     <title>Parkour / ADD Quiz </title>
     <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="wireframe.css" rel="stylesheet" type="text/css" />
+  
   </head>
   <body>
     <header>
       <div class="row">
         <div class="col-12">
           <h1>'Art Du Déplacement (Parkour)</h1>    
-          <div class="question-and-score"></div>
+          <div class="questions"></div>
         </div>
       </div>
     </header>
@@ -21,13 +23,22 @@
       <section>
         <div class="row">
           <div class="col-12">
-            <h2>Natural Movement for the Young at Heart</h2>
-            <p>Could trying ADD (Parkour) Impove your life.</p>
+            <h2>Questions</h2>
           </div>
         </div>
-        <div class="row">
+        <form action="questions">
+          <p> First Question:</p>
+          <input type="radio" name="wiretestquestions" value="1st answer"> 1st answer <br>
+          <input type="radio" name="wiretestquestions" value="2nd answer"> 2nd answer <br>
+          <input type="radio" name="wiretestquestions" value="3rd answer"> 3rd answer <br>
+          <del><input type="radio" name="wiretestquestions" value="4th answer"> WRONG ANSWER <br></del>
+          <p> You selected the wrong answer </p>
+          <div class="row">
           <div class="col-12">
-            <button type="button" id="start"> Start Quiz</button>
+            <button type="button" id="start"> Continue</button>
+
+          </form>
+
           </div>
         </div>
       </section>
