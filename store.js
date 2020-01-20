@@ -26,8 +26,8 @@ const STORE = {
         question: "Who are three of the original Yamakasi?",
         options: [
             “a. Three of the original Yamak are David Belle, Sébastien Foucan, Châu Belle Dinh.”,
-            “b.  Three of the original Yamak areWilliams Belle, Yann Hnautra, Taylor Lautner.”,
-            “c.  Three of the original Yamak areLaurent Piemontesi, Guylain N''Guba Boyeke, Paul Walker.”,
+            “b. Three of the original Yamak areWilliams Belle, Yann Hnautra, Taylor Lautner.”,
+            “c. Three of the original Yamak areLaurent Piemontesi, Guylain N''Guba Boyeke, Paul Walker.”,
             “d. Three of the original Yamak areMalik Diouf, Lance Armstrong, Châu Belle Dinh.”
         ],
         answer: "src"
