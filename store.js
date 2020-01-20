@@ -20,7 +20,7 @@ const STORE = {
             "We know for believe it was created by MTV in the early 2000’s for a TV game show.",
             "In the 80’s it was create by one of the constants on Ninja Warrior."
         ],
-        answer: "We don't have a specific date but it was prior to 1954 with Raymond Belle'’s return to France."
+        answer: "We don't have a specific date but it was prior to 1954 with Raymond Belle’s return to France."
       },
       //3
       {
