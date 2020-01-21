@@ -32,6 +32,24 @@ header h1 {
   text-align: center;
 }
 
+header .question-and-score {
+  font-size: 20px;
+  font-weight: 600px;
+  color:white;
+  background: none;
+}
+
+.question-and-score ul {
+  text-align:center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.question-and-score li {
+  display: inline-block;
+  padding:0 2%;
+}
+
 button {
   margin-top:10px;
   height: auto;
@@ -62,7 +80,59 @@ section {
 h2 {
   font-weight: 500;
   font-size: 18px;
-  text-align: center;
+}
+
+.question-form .question {
+  margin-bottom: 20px;
+  padding: 0 2%;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.options ul {
+  list-style: none;
+  margin:0;
+  text-align:left;
+}
+
+label {
+  font-size:18px;
+}
+
+.options span {
+  display:block;
+  border-radius:5px;
+}
+
+.right-answer {
+ background:rgb(145, 145, 142);
+ padding: 10px 20px;
+ margin: 5px 20px;
+ border:2px solid greenyellow;
+}
+
+.wrong-answer {
+  background:ivory;
+  padding: 10px;
+  margin: 5px 20px;
+  border:2px solid #fe0000;
+}
+
+.question-form button {
+  float:right;
+}
+
+button:hover:enabled,
+button:focus:enabled{
+  background-color: #ff8d00;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+button:disabled {
+  opacity:0.5;
 }
 
 @media screen and (min-width: 640px) {
