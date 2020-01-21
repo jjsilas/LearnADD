@@ -3,10 +3,11 @@ body {
   color: black;
   margin:0;
   background:cover;
-  background-image:url("images/7964018504_58893b7fa6_o.jpg");
+  background-image:url("images/runningmmassivejam.jpg");
   background-size: 100%;
   max-height: auto;
   background-color: #262626;
+  
 }
 
 header {
@@ -19,23 +20,23 @@ header {
 }
 
 .row {
-  max-width: 1100px;
   padding-left: 20px;
   padding-right: 20px;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 header h1 {
   line-height: 1;
   top:24px;
   text-align: center;
+  font-size: 18px;
 }
 
 header .question-and-score {
   font-size: 20px;
   font-weight: 600px;
-  color:white;
+  //color:white;//
   background: none;
 }
 
@@ -43,6 +44,8 @@ header .question-and-score {
   text-align:center;
   padding-left: 2%;
   padding-right: 2%;
+  font-size: 15px;
+  margin-top:30px;
 }
 
 .question-and-score li {
@@ -78,13 +81,18 @@ section {
 }
 
 h2 {
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 300px;
+  font-size: 17px;
+}
+
+p {
+  font-weight: 300px;
+  font-size: 15px;
 }
 
 .question-form .question {
   margin-bottom: 20px;
-  padding: 0 2%;
+  padding:  2%;
   font-size: 20px;
   font-weight: 600px;
 }
@@ -96,7 +104,7 @@ h2 {
 }
 
 label {
-  font-size:18px;
+  font-size:14px;
 }
 
 .options span {
@@ -139,4 +147,38 @@ button:disabled {
   section{
   margin-top: 30px;
   }
+
+  body {
+  background:cover;
+  background-image:url("images/7964018504_58893b7fa6_o.jpg");
+  background-size: 100%;
+  max-height: auto;
+  background-color: #262626;
+}
+
+label {
+  font-size:18px;
+}
+
+header h1 {
+  line-height: 1;
+  top:24px;
+  text-align: center;
+  font-size: 24px;
+}
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-weight: 300px;
+  font-size: 16px;
+}
+
+.question-and-score ul {
+  text-align:center;
+  font-size: 18px;
+  margin-top:5px;
+}
+
 }

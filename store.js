@@ -14,7 +14,6 @@ const STORE = {
     {
       question: "2. When was parcours initially created?",
       options: [
-
           "We don't have a specific date but it was prior to 1970 with Jackie Chan.",
           "We don't have a specific date but it was prior to 1954 with Raymond Belle's return to France.",
           "We know for believe it was created by MTV in the early 2000’s for a TV game show.",
@@ -26,7 +25,6 @@ const STORE = {
     {
       question: "Who are three of the original Yamakasi?",
       options: [
-          
           "Three of the original Yamak areWilliams Belle, Yann Hnautra, Taylor Lautner.",
           "Three of the original Yamak areLaurent Piemontesi, Guylain N''Guba Boyeke, Paul Walker.",
           "Three of the original Yamak are David Belle, Sébastien Foucan, Châu Belle Dinh.",
