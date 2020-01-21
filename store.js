@@ -5,7 +5,7 @@ const STORE = {
       options: [
           "Parcours is the name originally used by the Yamakasi to describe their movevment.",
           "Freerunning was a name coined in American to describe l'art du déplacement.",
-          "Tracing is the official name for l''art du déplacement in Japan.",
+          "Tracing is the official name for l'art du déplacement in Japan.",
           "Hardcore Parkour the name use in the series the Office is the most common name used by the Yamak."
       ],
       answer: "Parcours is the name originally used by the Yamakasi to describe their movevment."
