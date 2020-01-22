@@ -1,7 +1,7 @@
 const STORE = {
   questions: [//1
     {
-      question: "1. What is  another name for l'art du déplacement?",
+      question: "What is  another name for l'art du déplacement?",
       options: [
           "Parcours is the name originally used by the Yamakasi to describe their movevment.",
           "Freerunning was a name coined in American to describe l'art du déplacement.",
@@ -12,7 +12,7 @@ const STORE = {
     },
     //2
     {
-      question: "2. When was parcours initially created?",
+      question: "When was parcours initially created?",
       options: [
           "We don't have a specific date but it was prior to 1970 with Jackie Chan.",
           "We don't have a specific date but it was prior to 1954 with Raymond Belle's return to France.",
@@ -30,7 +30,7 @@ const STORE = {
           "Three of the Yamak are David Belle, Sébastien Foucan, Châu Belle Dinh.",
           "Three of the Yamak are Malik Diouf, Lance Armstrong, Châu Belle Dinh."
       ],
-      answer: "Three of the original Yamak are David Belle, Sébastien Foucan, Châu Belle Dinh."
+      answer: "Three of the Yamak are David Belle, Sébastien Foucan, Châu Belle Dinh."
     },
     //4
     {
