@@ -34,7 +34,7 @@ const STORE = {
     },
     //4
     {
-      question: "What two movies feature movies related in the United States of America featured found members of the Yamakasi?", 
+      question: "What two movies feature movies released in the United States of America featured found members of the Yamakasi?", 
       options: [
           "Bad Boys and Pirates of the Caribbean featured founding member of the Yamakasi.",
           "Casino Royale and Fast and Furious featured founding member of the Yamakasi.",
