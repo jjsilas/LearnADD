@@ -23,12 +23,12 @@ const STORE = {
     },
     //3
     {
-      question: "Who are three of the original Yamakasi?",
+      question: "Who are three of the Yamakasi?",
       options: [
-          "Three of the original Yamak areWilliams Belle, Yann Hnautra, Taylor Lautner.",
-          "Three of the original Yamak areLaurent Piemontesi, Guylain N''Guba Boyeke, Paul Walker.",
-          "Three of the original Yamak are David Belle, Sébastien Foucan, Châu Belle Dinh.",
-          "Three of the original Yamak areMalik Diouf, Lance Armstrong, Châu Belle Dinh."
+          "Three of the Yamak are Williams Belle, Yann Hnautra, Taylor Lautner.",
+          "Three of the Yamak are Laurent Piemontesi, Guylain N'Guba Boyeke, Paul Walker.",
+          "Three of the Yamak are David Belle, Sébastien Foucan, Châu Belle Dinh.",
+          "Three of the Yamak are Malik Diouf, Lance Armstrong, Châu Belle Dinh."
       ],
       answer: "Three of the original Yamak are David Belle, Sébastien Foucan, Châu Belle Dinh."
     },
