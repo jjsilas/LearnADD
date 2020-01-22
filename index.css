@@ -19,7 +19,7 @@
   clear: both;
 }
 
-.col-12 {
+.cols {
   float: left;
   padding-left: 1%;
   padding-right: 1%;
@@ -28,7 +28,7 @@
 
 body {
   font-family: "Geneva", sans-serif;
-  color: black;
+  color: #262626;
   margin:0;
   background:cover;
   background-image:url("images/runningmmassivejam.jpg");
@@ -43,7 +43,7 @@ header {
   padding: 20px;
   height:80px;
   color:ivory;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px #262626;
   margin-bottom: 10px;
 }
 
@@ -64,7 +64,7 @@ header h1 {
 header .question-and-score {
   font-size: 20px;
   font-weight: 600px;
-  //color:white;//
+  color:#white;
   background: none;
 }
 
@@ -90,7 +90,7 @@ button {
   box-align: auto;
   text-align: center;
   color:black;
-  background: rgb(55, 161, 55);
+  background: #38f689;
   border: 0;
   cursor: pointer;
   margin-bottom: 0;
@@ -146,7 +146,7 @@ label {
  background:rgb(145, 145, 142);
  padding: 10px 20px;
  margin: 5px 20px;
- border:2px solid greenyellow;
+ border:2px solid #38f689;
 }
 
 .wrong-answer {

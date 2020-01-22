@@ -6,7 +6,7 @@ function startQuiz() {
     );
   }
   
-  /* Displays question number and score obtained */
+  /*question number and score obtained*/
   function updateQuestionAndScore() {
     const html = $(`<ul>
         <li id="js-answered">Questions Number: ${STORE.currentQuestion + 1}/${STORE.questions.length}</li>
@@ -15,7 +15,7 @@ function startQuiz() {
     $(".question-and-score").html(html);
   }
   
-  /* Displays the options for the current question */
+  /* current place in quiz */
   function updateOptions()
   {
     let question = STORE.questions[STORE.currentQuestion];
@@ -29,7 +29,6 @@ function startQuiz() {
     }
     
   }
-  
   /*displays the question*/
   function renderAQuestion() {
     let question = STORE.questions[STORE.currentQuestion];
@@ -40,20 +39,19 @@ function startQuiz() {
         
         <section>
           <div class="row question">
-            <div class="col-12">
+            <div class="cols">
               <h2> ${question.question}</h2>
             </div>
           </div>
   
           <div class="row options">
-            <div class="col-12">
+            <div class="cols">
               <div class="js-options"> </div>
           </div>
         </div>
       
-  
         <div class="row">
-          <div class="col-12">
+          <div class="cols">
             <button type = "submit" id="answer" tabindex="5">Submit</button>
             <button type = "button" id="next-question" tabindex="6"> Next >></button>
           </div>
@@ -66,20 +64,20 @@ function startQuiz() {
   $("#next-question").hide();
   }
   
-  /* displays results and restart quiz button */
+  /*results and restart*/
   function displayResults() {
     let resultHtml = $(
       `<div class="results">
         <form id="js-restart-quiz">
           <section>
             <div class="row">
-              <div class="col-12">
+              <div class="cols">
                 <h2>Your Score is: ${STORE.score}/${STORE.questions.length}</h2>
               </div>
             </div>
           
             <div class="row">
-              <div class="col-12">
+              <div class="cols">
                 <button type="button" id="restart"> Restart Quiz </button>
               </div>
             </div>
@@ -91,15 +89,14 @@ function startQuiz() {
     $("main").html(resultHtml);
   }
   
-  /* checks whether it reached the end of questions list */
+  /*check progress reached the end*/
   function handleQuestions() {
     $('body').on('click','#next-question', (event) => {
       STORE.currentQuestion === STORE.questions.length?displayResults() : renderAQuestion();
     });
   }
   
-  
-  /*checks whether the chosen option is right or wrong and displays respective message*/ 
+  /*check for right or wrong and displays message*/ 
   function handleSelectOption() {
     $('body').on("submit",'#js-questions', function(event) {
       event.preventDefault();
